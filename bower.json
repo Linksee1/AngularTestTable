@@ -1,0 +1,21 @@
+{
+  "name": "homework",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "linksee1 <linksee1@yandex.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Linksee1/homework",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "reset-css": "~2.0.2011012602"
+  }
+}
