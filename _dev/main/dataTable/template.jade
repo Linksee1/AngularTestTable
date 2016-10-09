@@ -1,0 +1,7 @@
+table.data__table
+  tbody
+    tr(ng-repeat="item in dataToParse track by $index")
+      td.data__table__cell
+        p.data__table__text {{$index + 1}}
+      td.data__table__cell(height="32" width="300" ng-repeat="i in item" ng-click="setColor($event, i.color)")
+        p.data__table__text(title="{{'id: ' + i.id}}") {{"name: " + i.name}}

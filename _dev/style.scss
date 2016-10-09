@@ -1,0 +1,13 @@
+@import "../bower_components/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css";
+@import "main/hello/style";
+@import "main/dataTable/style";
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.btn-group-justified__m{
+  height: 100px;
+}
+table {
+  table-layout: fixed;
+}

@@ -15,7 +15,13 @@
     "tests"
   ],
   "devDependencies": {
-    "jquery": "~2.1.4",
+    "angular": "1.5.x",
+    "angular-animate": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-route": "1.5.x",
+    "bootstrap": "3.3.x",
+    "jquery": "2.2.x",
     "reset-css": "~2.0.2011012602"
   }
 }
